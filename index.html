@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="portfolio">
+      <div class="inner-width">
+        <div class="border"></div>
+        <div class="row folio">
+          <a href="img/3.png" class="imgg">
+            <img src="img/3.png" alt="">
+          </a>
+          <a href="img/4.png" class="imgg">
+            <img src="img/4.png" alt="">
+          </a>
+          <a href="img/5.png" class="imgg">
+            <img src="img/5.png" alt="">
+          </a>
+          <a href="img/6.png" class="imgg">
+            <img src="img/6.png" alt="">
+          </a>
+          <a href="img/7.png" class="imgg">
+            <img src="img/7.png" alt="">
+          </a>
+          <a href="img/8.png" class="imgg">
+            <img src="img/8.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- script -->
+    <script>
+      $(".folio").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        folio:{
+          enabled: true
+        }
+      });
+    </script>
+    <!-- fin script -->
+  </body>
+</html>
